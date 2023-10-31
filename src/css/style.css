@@ -1,0 +1,161 @@
+/* ========== SITE FONTS========= */
+
+
+/* =============GENERAL CSS STYLES START============== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ============= GENERAL CSS STYLES END ================  */
+
+
+/* ============= VIDEO WRAPPER START ============== */
+
+.video-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ================ VIDEO WRAPPER END ============= */
+
+
+/* ================= FORM START ================ */
+
+.form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form_box {
+    position: relative;
+    width: 700px;
+    height: 500px;
+}
+
+/* ==================== FORM LEFT START ================== */
+
+.form_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    width: 55%;
+    height: 100%;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    background-image: url(../assets/img/form-bg-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_left h3 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.form_left p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form_text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+/* ==================== FORM LEFT END ==================== */
+
+
+/* ================ FORM RIGHT START ================= */
+
+.form_right {}
+
+.form_right_title {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+.form_right_text {
+    color: #8D8D8D;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.form_right_input {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.form_right-hr {
+    width: 440px;
+    height: 1px;
+    background: #000;
+}
+
+/* ========================= FORM RIGHT END ======================== */
+
+
+/* ==================== FORM END ====================== */
